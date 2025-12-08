@@ -132,26 +132,6 @@ pip install scikit-learn pandas numpy matplotlib
 
 ## Cómo Utilizar
 
-### Opción 1: Jupyter Notebook (Local)
-
-1. Asegúrate de tener Jupyter instalado:
-```bash
-pip install jupyter
-```
-
-2. Coloca el archivo `student_performance.csv` en el mismo directorio que los notebooks
-
-3. Inicia Jupyter Notebook:
-```bash
-jupyter notebook
-```
-
-4. Abre el notebook deseado (`Cuaderno_1.ipynb` o `Cuaderno_2.ipynb`)
-
-5. Ejecuta las celdas secuencialmente desde el principio
-
-### Opción 2: Google Colab
-
 1. Sube el archivo `student_performance.csv` a tu Google Drive o cárgalo directamente en Colab
 
 2. Abre el notebook en Google Colab
@@ -165,17 +145,6 @@ drive.mount('/content/drive')
 4. Ajusta la ruta del archivo CSV según corresponda
 
 5. Ejecuta todas las celdas
-
-### Estructura del Proyecto
-
-```
-├── Cuaderno_1.ipynb          # Notebook de Redes Neuronales
-├── Cuaderno_2.ipynb          # Notebook de Árboles de Decisión
-├── student_performance.csv   # Dataset (debe agregarse)
-├── Informe_Machine_learning.pdf  # Documento con especificaciones
-└── README.md                 # Este archivo
-```
-
 ---
 
 ## Resultados Esperados
