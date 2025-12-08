@@ -1,6 +1,6 @@
 # Predicción de Aprobación de Curso de Matemáticas - Machine Learning
 
-## 📋 Información General
+## Información General
 
 Este repositorio contiene dos proyectos de Machine Learning desarrollados para predecir si un estudiante aprobará un curso de matemáticas. El análisis se realiza utilizando un dataset de 1044 estudiantes con 17 atributos que incluyen información demográfica, educativa y de hábitos de estudio.
 
@@ -13,7 +13,7 @@ Este repositorio contiene dos proyectos de Machine Learning desarrollados para p
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 El proyecto tiene como objetivo desarrollar y comparar dos técnicas de Machine Learning para predecir la aprobación de estudiantes en un curso de matemáticas:
 
@@ -24,7 +24,7 @@ La variable objetivo es `approved`, que toma el valor 1 cuando el estudiante apr
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Descripción del Dataset
 El dataset `student_performance.csv` contiene información de 1044 estudiantes con los siguientes atributos:
@@ -54,9 +54,9 @@ El dataset `student_performance.csv` contiene información de 1044 estudiantes c
 
 ---
 
-## 📓 Notebooks Desarrollados
+## Notebooks Desarrollados
 
-### 📘 Cuaderno 1: Redes Neuronales (MLP)
+### Cuaderno 1: Redes Neuronales (MLP)
 
 **Archivo:** `Cuaderno_1.ipynb`
 
@@ -79,7 +79,7 @@ Los modelos varían en arquitectura, desde redes simples hasta configuraciones m
 
 ---
 
-### 📗 Cuaderno 2: Árboles de Decisión
+### Cuaderno 2: Árboles de Decisión
 
 **Archivo:** `Cuaderno_2.ipynb`
 
@@ -107,7 +107,7 @@ El notebook incluye análisis detallado sobre cómo el hiperparámetro min_sampl
 
 ---
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 ### Dependencias Principales:
 ```python
@@ -130,7 +130,7 @@ pip install scikit-learn pandas numpy matplotlib
 
 ---
 
-## 🚀 Cómo Utilizar
+## Cómo Utilizar
 
 ### Opción 1: Jupyter Notebook (Local)
 
@@ -178,7 +178,7 @@ drive.mount('/content/drive')
 
 ---
 
-## 📈 Resultados Esperados
+## Resultados Esperados
 
 ### Cuaderno 1 - Redes Neuronales:
 - Tabla con accuracy de 5 modelos diferentes
@@ -195,7 +195,7 @@ drive.mount('/content/drive')
 
 ---
 
-## 📊 Métricas de Evaluación
+## Métricas de Evaluación
 
 Ambos notebooks calculan las siguientes métricas:
 
@@ -206,7 +206,7 @@ Ambos notebooks calculan las siguientes métricas:
 
 ---
 
-## 🔍 Aspectos Técnicos Importantes
+## Aspectos Técnicos Importantes
 
 ### Preprocesamiento de Datos:
 
@@ -224,35 +224,4 @@ Ambos notebooks utilizan:
 - 20% para pruebas
 - random_state=42 para reproducibilidad
 
----
 
-## 📝 Notas Adicionales
-
-- Los notebooks están diseñados para ejecutarse de forma secuencial
-- Se recomienda ejecutar todas las celdas en orden
-- Los modelos utilizan semillas aleatorias (random_state) para garantizar reproducibilidad
-- Cada notebook incluye análisis y comentarios explicativos en celdas de markdown
-
----
-
-## 📖 Referencias
-
-- [Documentación scikit-learn - MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
-- [Documentación scikit-learn - DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
-- [Documentación Pandas](https://pandas.pydata.org/docs/)
-
----
-
-## 📄 Licencia
-
-Este proyecto es de uso académico para el curso de Inteligencia Artificial de la Universidad del Valle.
-
----
-
-## 🤝 Contribuciones
-
-Este es un proyecto académico. Para cualquier consulta o sugerencia, contactar a los autores a través de la Universidad del Valle.
-
----
-
-**Última actualización:** Diciembre 2024
