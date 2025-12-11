@@ -11,6 +11,7 @@ Este repositorio contiene dos proyectos de Machine Learning desarrollados para p
 - Juan Sebastian Sierra - 202343656
 - Jhoan Sebastian Fernandez - 2222772
 - Luis Felipe Garcia - 2343105
+- David Alejandro Enciso - 2240581
 
 ---
 
@@ -116,17 +117,6 @@ scikit-learn
 pandas
 numpy
 matplotlib
-```
-
-### Instalación:
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/prediccion-estudiantes-ml.git
-cd prediccion-estudiantes-ml
-
-# Instalar dependencias
-pip install scikit-learn pandas numpy matplotlib
 ```
 
 ---
