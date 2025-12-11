@@ -10,6 +10,7 @@ Este repositorio contiene dos proyectos de Machine Learning desarrollados para p
 **Autores:** 
 - Juan Sebastian Sierra - 202343656
 - Jhoan Sebastian Fernandez - 2222772
+- Luis Felipe Garcia - 2343105
 
 ---
 
